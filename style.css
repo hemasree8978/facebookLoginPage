@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(230, 230, 238)
+}
+.container {
+    width: 1250px;
+}
+.t-box-1 {
+    margin-top:180px;
+    margin-left:10px;
+    margin-right: 80px;
+    width: 475px;
+}
+.h1 {
+    color: rgb(43, 43, 235);
+    font-weight: 700;
+    font-size: 60px;
+    padding-bottom: 15px;
+}
+.btn {
+    color: white;
+    font-size: 20px;
+}
+.abc {
+    margin-left: 650px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.abc a {
+    font-weight: 700;
+    color: black;
+}
+.abcde {
+    background-color: white;
+    margin-top: 250px;
+    padding: 0px 80px;
+    width: 1500px;
+    color: rgb(168, 163, 163);
+    font-size: 12px;
+}
+.abcde a {
+    margin: 10px;
+    color: rgb(168, 163, 163);
+    font-size: 13px;
+}
+.line::after {
+    display: block;
+    content: "";
+    background-color: rgb(168, 163, 163);;
+    width: 1000px;
+    height: 0.5px;
+}
+.line1::after {
+    display: block;
+    content: "";
+    background-color: black;
+    width:400px;
+    height: 0.5px;
+    padding: auto;
+    margin-top: 25px;
+}
+.h6 {
+    font-size: 12px;
+}
